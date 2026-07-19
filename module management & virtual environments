@@ -1,0 +1,15 @@
+Isolated Sandbox Environments:
+# Instantiate Local Platform Environment
+python -m venv venv
+
+# Activate Environment (Windows PowerShell Bypass)
+venv\Scripts\activate
+
+# Activate Environment (Mac/Linux Shells)
+source venv/bin/activate
+
+
+The Pip Package Manager Commands
+Install Resource: pip install <package_name>
+Freeze Dependencies: pip freeze > requirements.txt
+Deploy From Configurations: pip install -r requirements.txt
