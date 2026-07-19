@@ -1,0 +1,20 @@
+Type Categorization
+Python utilizes dynamic runtime type interpretation. Use the implicit types structurally:
+
+name = "Harry"          # String (str)
+age = 25                # Integer (int)
+price = 99.99           # Float (float)
+is_active = True        # Boolean (bool)
+
+# Multiple Assignments
+x, y = 10, 20
+a = b = c = 0
+
+# Constant Conventions (Developer Enforced)
+PI = 3.14
+MAX_SIZE = 100
+
+Evaluation & Type Checking:
+x = 5
+print(type(x))             # Output: <class 'int'>
+print(isinstance(x, int))  # Output: True
