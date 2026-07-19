@@ -29,3 +29,9 @@ python --version
 python3 --version
 py --version
 
+The Initial Execution:
+# Create a file named main.py
+print("Hello, World!")
+
+Run the application execution stream directly:
+python main.py
