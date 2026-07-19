@@ -1,0 +1,27 @@
+Structural Layouts:
+# Conditionals
+if condition:
+    statement
+elif another_condition:
+    statement
+else:
+    statement
+
+# Structural Pattern Matching (Python 3.10+)
+match value:
+    case 1:
+        print("One Chosen")
+    case _:
+        print("Fallback Route Triggered")
+
+Iteration Loops: 
+# For Loop Range Parsing
+for i in range(5):
+    print(i)
+
+# While Loop Logic Execution
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
