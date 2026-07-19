@@ -1,0 +1,12 @@
+Always handle I/O contexts with standard resource-safe operational syntax:
+# Safe Context Management Architecture
+with open("data.txt", "r") as file:
+    content = file.read()
+    # Auto-closes stream immediately when block ends
+
+
+Mode FlagAction Description
+"r"Opens target text resource file strictly for data reading.
+"w"Overwrites or creates target file text resource stream for raw output.
+"a"Appends output payloads safely directly to the bottom line trace.
+"rb"Reads system raw architecture payloads in true low-level Binary.
