@@ -1,0 +1,12 @@
+Prevent application runtime failures through structured sandbox parsing:
+try:
+    # Code block carrying execution risks
+    value = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Intercepted Mathematical Exception: {e}")
+except (ValueError, TypeError) as e:
+    print(f"Intercepted Data Type Error: {e}")
+else:
+    print("Process executed flawlessly with no errors.")
+finally:
+    print("Cleanup cycle complete. This execution block always runs.")
