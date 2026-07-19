@@ -1,0 +1,13 @@
+1.Mathematical & Logical Blocks
+Arithmetic: +, -, *, /, % (Modulus), // (Floor Division), ** (Exponentiation)
+Comparison: ==, !=, >, <, >=, <=
+Logical: and, or, not
+Membership/Identity: in, not in, is, is not
+
+2.Order of Precedence Hierarchy
+() — Parentheses
+** — Power Alignment
+*, /, //, % — Multiplicative Group
++, - — Additive Group
+==, !=, <, >, in, is — Comparison Checkers
+not, and, or — Logical Progression
