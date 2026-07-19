@@ -1,0 +1,12 @@
+class Person:
+    def __init__(self, name):
+        self.name = name  # Instantiated Attribute
+        
+    def greet(self):
+        return f"Identity confirmed: {self.name}"
+
+# Inherited Extension Layer
+class Student(Person):
+    def __init__(self, name, marks):
+        super().__init__(name)  # Parent Init Chain
+        self.marks = marks
